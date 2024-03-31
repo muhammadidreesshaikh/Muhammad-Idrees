@@ -60,7 +60,7 @@ a.white-btn {
     height: 100%;
     width: 100%;
     z-index: 9999999;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     animation: spin 2s linear infinite;
 }
