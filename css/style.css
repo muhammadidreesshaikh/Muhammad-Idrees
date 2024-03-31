@@ -1,8 +1,8 @@
 body {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: "Roboto", sans-serif !important;
     overflow-x: hidden;
     margin-bottom: 0 auto;
-    background: #f2f2f2;
+    background: white;
 }
 
 p,
