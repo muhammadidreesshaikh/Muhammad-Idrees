@@ -39,7 +39,7 @@ a.black-btn {
     background-color: var(--black-color);
 }
 
-a.white-btn{
+a.white-btn {
     border: 1px solid var(--white-color);
     border-radius: 30px;
     padding: 10px 40px;
@@ -48,7 +48,43 @@ a.white-btn{
     color: var(--black-color);
     background-color: var(--white-color);
 }
+/* ------------------------- */
 
+
+/* loader start*/
+.loader {
+    background: url('../img/loader.gif');
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+    background-size: contain;
+    background-position: center;
+    animation: spin 2s linear infinite;
+}
+
+/* Hide the loader after 20 seconds */
+@keyframes hideLoader {
+    0% {
+        opacity: 1;
+    }
+
+    95% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+.loader.hide {
+    animation: hideLoader 1s forwards;
+}
+/* loader end*/
 
 /* top-bar start */
 .top-bar {
@@ -202,10 +238,11 @@ a.white-btn{
 .mobile-nav {
     display: none;
 }
+
 /* top-bar end */
 
 /* banner start */
-.banner{
+.banner {
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -218,33 +255,38 @@ a.white-btn{
     background-color: #060606;
 }
 
-.banner .banner-text h1{
+.banner .banner-text h1 {
     font-size: 60px;
     color: white;
 }
 
-.banner .banner-text h6{
+.banner .banner-text h6 {
     font-size: 19px;
     color: white;
     padding-top: 5px;
     font-weight: 300;
 }
 
-.banner .banner-text .icon-img{
+.banner .banner-text .owl-carousel {
+    display: unset;
+}
+
+.banner .banner-text .icon-img {
     margin-top: 20px;
 }
 
-.banner .icon-img img{
-    width: 35px;
-    height: 35px;
+.banner .icon-img img {
+    width: 35px !important;
+    height: 35px !important;
     object-fit: cover;
     object-position: center;
     background-color: white;
     border-radius: 5px;
     padding: 5px;
-    margin-right: 5px;
 }
+
 /* banner end */
+
 
 
 
@@ -274,7 +316,7 @@ a.white-btn{
         display: none;
     }
 
-    .sidenav ul{
+    .sidenav ul {
         padding: 15px 0 0 0;
     }
 
@@ -286,7 +328,7 @@ a.white-btn{
         font-size: 18px;
     }
 
-    .banner{
+    .banner {
         height: 55vh;
     }
 
@@ -299,8 +341,6 @@ a.white-btn{
     }
 }
 
-@media screen and (max-width: 600px) {
-    
-}
+@media screen and (max-width: 600px) {}
 
 @media screen and (max-width: 425px) {}
