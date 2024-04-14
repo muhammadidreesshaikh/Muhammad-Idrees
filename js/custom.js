@@ -29,11 +29,14 @@ $(function () {
     nav: false,
     dots: false,
     responsive: {
+      0: {
+        items: 1
+      },
       425: {
-        items: 8
+        items: 5
       },
       768: {
-        items: 8
+        items: 5
       },
       1200: {
         items: 8
