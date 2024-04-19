@@ -161,7 +161,7 @@ a.white-btn {
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 50px;
+    top: 55px;
     right: 0;
     background-color: black;
     overflow-x: hidden;
@@ -270,6 +270,15 @@ a.white-btn {
 .banner .banner-text .owl-carousel {
     display: unset;
 }
+
+.banner .banner-text .owl-carousel .owl-item .cloned{
+    width: 50px !important;
+}
+
+/* .owl-item.animated.owl-animated-out.linear.owl-animated-in{
+    width: 50px !important;
+    left: 50px !important;
+} */
 
 .banner .banner-text .icon-img {
     margin-top: 20px;
