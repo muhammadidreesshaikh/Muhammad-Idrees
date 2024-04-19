@@ -33,10 +33,10 @@ $(function () {
         items: 1
       },
       300: {
-        items: 5
+        items: 6
       },
       768: {
-        items: 5
+        items: 6
       },
       1200: {
         items: 8

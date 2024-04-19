@@ -296,10 +296,37 @@ a.white-btn {
 
 /* banner end */
 
+/* about-us start */
+.about-us{
+    padding: 50px 0;
+    background-color: var(--white-color);
+}
 
+.about-us .profile-image img{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
 
+.about-us .content-center{
+    display: flex;
+    align-items: center;
+}
 
+.about-us .profile-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--black-color);
+}
 
+.about-us .profile-content p{
+    padding-top: 10px;
+    color: var(--darkgray-color);
+    font-size: 15px;
+}
+/* about-us end */
 
 
 
@@ -310,7 +337,9 @@ a.white-btn {
 
 @media screen and (max-width: 1920px) {}
 
-@media screen and (max-width: 1366px) {}
+@media screen and (max-width: 1366px) {
+
+}
 
 @media screen and (max-width: 768px) {
     .toggleMenu {
@@ -348,8 +377,36 @@ a.white-btn {
     .banner .banner-text h6 {
         font-size: 17px;
     }
+
+    .about-us{
+        text-align: center;
+    }
+
+    .about-us .profile-image img {
+        width: 300px;
+    }
+
+    .about-us .profile-content h1 {
+        font-size: 33px;
+    }
+
+    .about-us .profile-content p {
+        font-size: 14px;
+    }
 }
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+    .about-us .profile-content {
+        padding-top: 30px;
+    }
+
+    .about-us .profile-content h1 {
+        font-size: 35px;
+    }
+
+    .about-us .profile-content p {
+        font-size: 15px;
+    }
+}
 
 @media screen and (max-width: 425px) {}
