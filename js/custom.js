@@ -30,7 +30,7 @@ $(function () {
     dots: false,
     responsive: {
       0: {
-        items: 1
+        items: 6
       },
       300: {
         items: 6

@@ -48,6 +48,7 @@ a.white-btn {
     color: var(--black-color);
     background-color: var(--white-color);
 }
+
 /* ------------------------- */
 
 
@@ -84,6 +85,7 @@ a.white-btn {
 .loader.hide {
     animation: hideLoader 1s forwards;
 }
+
 /* loader end*/
 
 /* top-bar start */
@@ -252,17 +254,17 @@ a.white-btn {
     align-items: center;
     justify-content: center;
     background-blend-mode: soft-light;
-    background-color: #060606;
+    background-color: #080808;
 }
 
 .banner .banner-text h1 {
     font-size: 60px;
-    color: white;
+    color: var(--white-color);
 }
 
 .banner .banner-text h6 {
     font-size: 17px;
-    color: white;
+    color: var(--white-color);
     padding-top: 5px;
     font-weight: 300;
 }
@@ -271,7 +273,7 @@ a.white-btn {
     display: unset;
 }
 
-.banner .banner-text .owl-carousel .owl-item .cloned{
+.banner .banner-text .owl-carousel .owl-item .cloned {
     width: 50px !important;
 }
 
@@ -289,7 +291,7 @@ a.white-btn {
     height: 35px !important;
     object-fit: cover;
     object-position: center;
-    background-color: white;
+    background-color: var(--white-color);
     border-radius: 5px;
     padding: 5px;
 }
@@ -297,12 +299,12 @@ a.white-btn {
 /* banner end */
 
 /* about-us start */
-.about-us{
+.about-us {
     padding: 50px 0;
     background-color: var(--white-color);
 }
 
-.about-us .profile-image img{
+.about-us .profile-image img {
     width: 400px;
     height: auto;
     object-fit: cover;
@@ -310,25 +312,87 @@ a.white-btn {
     border-radius: 20px;
 }
 
-.about-us .content-center{
+.about-us .content-center {
     display: flex;
     align-items: center;
 }
 
-.about-us .profile-content h1{
+.about-us .profile-content h1 {
     font-size: 50px;
     font-weight: 700;
     color: var(--black-color);
 }
 
-.about-us .profile-content p{
+.about-us .profile-content p {
     padding-top: 10px;
     color: var(--darkgray-color);
     font-size: 15px;
 }
+
 /* about-us end */
 
+/* services start */
+.services {
+    padding: 50px 0;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    background-color: #000000eb;
+}
 
+.services .services-content {
+    text-align: center;
+}
+
+.services .services-content h1 {
+    font-size: 40px;
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.services .services-content p {
+    font-size: 15px;
+    color: var(--gray-color);
+    padding-top: 10px;
+}
+
+.services .services-card {
+    margin-top: 40px;
+}
+
+.services .services-card .card-main {
+    border: 1px solid var(--darkgray-color);
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    height: 220px;
+    margin-top: 20px;
+}
+
+.services .card-main img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.services .card-main h5 {
+    font-size: 20px;
+    color: white;
+    padding-top: 25px;
+}
+
+.services .card-main p {
+    font-size: 15px;
+    color: var(--darkgray-color);
+    padding-top: 5px;
+}
+
+/* services end */
 
 
 
@@ -337,9 +401,7 @@ a.white-btn {
 
 @media screen and (max-width: 1920px) {}
 
-@media screen and (max-width: 1366px) {
-
-}
+@media screen and (max-width: 1366px) {}
 
 @media screen and (max-width: 768px) {
     .toggleMenu {
@@ -378,7 +440,7 @@ a.white-btn {
         font-size: 17px;
     }
 
-    .about-us{
+    .about-us {
         text-align: center;
     }
 
