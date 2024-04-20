@@ -430,6 +430,7 @@ a.white-btn {
 
     .banner {
         height: 55vh;
+        background-color: #00000069;
     }
 
     .banner .banner-text h1 {
@@ -454,6 +455,10 @@ a.white-btn {
 
     .about-us .profile-content p {
         font-size: 14px;
+    }
+
+    .services {
+        background-color: #00000069;
     }
 }
 
