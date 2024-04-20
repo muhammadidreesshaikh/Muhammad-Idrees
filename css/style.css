@@ -430,7 +430,7 @@ a.white-btn {
 
     .banner {
         height: 55vh;
-        background-color: #00000069;
+        background-color: rgba(0, 0, 0, 0.589)
     }
 
     .banner .banner-text h1 {
