@@ -369,8 +369,12 @@ a.white-btn {
     border-radius: 5px;
     padding: 20px;
     width: 100%;
-    height: 220px;
+    height: auto;
     margin-top: 20px;
+}
+
+.services .services-card .owl-carousel-services {
+    display: unset;
 }
 
 .services .card-main img {
@@ -460,6 +464,22 @@ a.white-btn {
     .services {
         background-color: #00000069;
     }
+
+    .services .services-card .card-main {
+        padding: 20px;
+        width: 95%;
+        height: auto;
+        margin-top: 14px;
+    }
+
+    .services .card-main img {
+        width: 70px !important;
+        height: 70px;
+    }
+
+    .services .card-main h5 {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -473,6 +493,22 @@ a.white-btn {
 
     .about-us .profile-content p {
         font-size: 15px;
+    }
+
+    .services .services-card .card-main {
+        padding: 20px;
+        width: 95%;
+        height: auto;
+        margin-top: 14px;
+    }
+
+    .services .card-main img {
+        width: 70px !important;
+        height: 70px;
+    }
+
+    .services .card-main h5 {
+        font-size: 25px;
     }
 }
 
