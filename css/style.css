@@ -375,9 +375,9 @@ a.white-btn {
     margin: auto;
 }
 
-.services .services-card .owl-carousel-services {
-    /* display: unset; */
-}
+/* .services .services-card .owl-carousel-services {
+    display: unset;
+} */
 
 .owl-carousel .owl-item img {
     display: unset !important;
@@ -513,9 +513,9 @@ a.white-btn {
         margin-top: 14px;
     }
 
-    .services .card-main h5 {
-        font-size: 18px;
-    }
+    /* .services .card-main h5 {
+        font-size: 15px;
+    } */
 }
 
 @media screen and (max-width: 425px) {}
