@@ -1,5 +1,5 @@
 // loader
-setTimeout(function() {
+setTimeout(function () {
   document.querySelector('.loader').classList.add('hide');
 }, 3500);
 
@@ -66,10 +66,10 @@ $(function () {
         items: 1
       },
       300: {
-        items: 1
+        items: 2
       },
       768: {
-        items: 3
+        items: 4
       },
       1920: {
         items: 5
