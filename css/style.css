@@ -469,7 +469,7 @@ a.white-btn {
     }
 
     .services {
-        background-color: #0000004a;
+        background-color: #00000062;
     }
 
     .services .services-card .card-main {
@@ -506,6 +506,10 @@ a.white-btn {
         font-size: 15px;
     }
 
+    .services {
+        background-color: #00000033;
+    }
+
     .services .services-card .card-main {
         padding: 20px;
         width: 95%;
@@ -514,7 +518,7 @@ a.white-btn {
     }
 
     .services .card-main h5 {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 
