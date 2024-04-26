@@ -52,7 +52,7 @@ $(function () {
   owl.owlCarousel({
     items: 5,
     // margin: 5,
-    autoplay: true,
+    autoplay: false,
     autoplayHoverPause: true,
     autoplayTimeout: 2020,
     smartSpeed: 2000,
@@ -71,7 +71,6 @@ $(function () {
       768: {
         items: 3
       },
-      // 1920
       1200: {
         items: 5
       }

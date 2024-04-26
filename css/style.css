@@ -368,13 +368,19 @@ a.white-btn {
     border: 1px solid var(--darkgray-color);
     border-radius: 5px;
     padding: 20px;
-    width: 100%;
+    width: 95%;
     height: auto;
-    margin-top: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
 }
 
 .services .services-card .owl-carousel-services {
-    display: unset;
+    /* display: unset; */
+}
+
+.owl-carousel .owl-item img {
+    display: unset !important;
 }
 
 .services .card-main img {
@@ -385,9 +391,10 @@ a.white-btn {
 }
 
 .services .card-main h5 {
-    font-size: 18px;
+    font-size: 15px;
     color: white;
     padding-top: 25px;
+    font-weight: 300;
 }
 
 .services .card-main p {
@@ -473,19 +480,16 @@ a.white-btn {
     }
 
     .services .card-main img {
-        width: 60px !important;
-        height: 60px;
+        width: 55px !important;
+        height: 55px;
+        display: block !important;
+        margin: auto;
     }
 
     .services .card-main h5 {
-        font-size: 18px;
+        font-size: 15px;
         text-align: center;
         font-weight: 300;
-    }
-
-    .owl-carousel .owl-item img {
-        display: block;
-        margin: auto;
     }
 }
 
@@ -507,11 +511,6 @@ a.white-btn {
         width: 95%;
         height: auto;
         margin-top: 14px;
-    }
-
-    .services .card-main img {
-        width: 55px !important;
-        height: 55px;
     }
 
     .services .card-main h5 {
