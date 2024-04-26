@@ -473,12 +473,19 @@ a.white-btn {
     }
 
     .services .card-main img {
-        width: 70px !important;
-        height: 70px;
+        width: 60px !important;
+        height: 60px;
     }
 
     .services .card-main h5 {
-        font-size: 25px;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .owl-carousel .owl-item img {
+        display: block;
+        margin: auto;
     }
 }
 
@@ -503,12 +510,12 @@ a.white-btn {
     }
 
     .services .card-main img {
-        width: 70px !important;
-        height: 70px;
+        width: 55px !important;
+        height: 55px;
     }
 
     .services .card-main h5 {
-        font-size: 25px;
+        font-size: 18px;
     }
 }
 
