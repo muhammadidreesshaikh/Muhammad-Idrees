@@ -469,7 +469,7 @@ a.white-btn {
     }
 
     .services {
-        background-color: #00000069;
+        background-color: #0000004a;
     }
 
     .services .services-card .card-main {
@@ -513,9 +513,9 @@ a.white-btn {
         margin-top: 14px;
     }
 
-    /* .services .card-main h5 {
-        font-size: 15px;
-    } */
+    .services .card-main h5 {
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 425px) {}
