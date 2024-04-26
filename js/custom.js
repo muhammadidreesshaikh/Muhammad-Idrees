@@ -52,7 +52,7 @@ $(function () {
   owl.owlCarousel({
     items: 5,
     // margin: 5,
-    autoplay: false,
+    autoplay: true,
     autoplayHoverPause: true,
     autoplayTimeout: 2020,
     smartSpeed: 2000,
