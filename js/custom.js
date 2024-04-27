@@ -12,7 +12,7 @@ function toggleMenu(x) {
   document.querySelector(".sidenav").classList.toggle("active");
 }
 
-// owl-carousel-banner-icons
+// owl-carousel-banner-skills
 $(function () {
   // Owl Carousel
   var owl = $(".owl-carousel-skills");
@@ -39,7 +39,7 @@ $(function () {
         items: 5
       },
       1200: {
-        items: 7
+        items: 8
       }
     }
   });
@@ -73,6 +73,39 @@ $(function () {
       },
       1200: {
         items: 5
+      }
+    }
+  });
+});
+
+// owl-carousel-projects
+$(function () {
+  // Owl Carousel
+  var owl = $(".owl-carousel-projects");
+  owl.owlCarousel({
+    items: 5,
+    // margin: 5,
+    autoplay: true,
+    autoplayHoverPause: true,
+    autoplayTimeout: 2020,
+    smartSpeed: 2000,
+    animateIn: 'linear',
+    animateOut: 'linear',
+    loop: true,
+    nav: false,
+    dots: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      300: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      1200: {
+        items: 3
       }
     }
   });
