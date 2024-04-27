@@ -75,15 +75,13 @@ a.white-btn-small {
 /* loader start*/
 .loader {
     background: url('../img/loader.gif');
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    height: auto;
+    height: 100vh;
     width: 100%;
-    z-index: 9999999;
+    z-index: 999;
     background-size: cover;
-    background-attachment: fixed;
-
     background-position: center;
     animation: spin 2s linear infinite;
 }

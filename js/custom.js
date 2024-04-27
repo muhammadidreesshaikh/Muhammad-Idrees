@@ -1,7 +1,7 @@
 // loader
 setTimeout(function () {
   document.querySelector('.loader').classList.add('hide');
-}, 3500);
+}, 2000);
 
 // nav-bar
 function toggleMenu(x) {
