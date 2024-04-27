@@ -33,13 +33,13 @@ $(function () {
         items: 2
       },
       300: {
-        items: 2
+        items: 5
       },
       768: {
-        items: 4
+        items: 5
       },
       1200: {
-        items: 5
+        items: 7
       }
     }
   });
