@@ -81,7 +81,7 @@ $(function () {
 // owl-carousel-projects
 $(function () {
   // Owl Carousel
-  var owl = $(".owl-carousel-projects");
+  var owl = $(".carousel-projects");
   owl.owlCarousel({
     items: 5,
     // margin: 5,
