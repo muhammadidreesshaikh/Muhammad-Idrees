@@ -375,12 +375,9 @@ a.white-btn {
     margin: auto;
 }
 
-/* .services .services-card .owl-carousel-services {
-    display: unset;
-} */
-
 .owl-carousel .owl-item img {
     display: unset !important;
+    width: unset !important;
 }
 
 .services .card-main img {
