@@ -445,7 +445,7 @@ a.white-btn-small {
 .projects .projects-main .project-card {
     border: 1px solid var(--gray-color);
     border-radius: 5px;
-    margin: 0 8px;
+    /* margin: 0 8px; */
 }
 
 .projects .project-card .project-img {}
