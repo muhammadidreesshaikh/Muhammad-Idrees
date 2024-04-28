@@ -78,35 +78,33 @@ $(function () {
   });
 });
 
-// owl-carousel-projects
-$(function () {
-  // Owl Carousel
-  var owl = $(".carousel-projects");
-  owl.owlCarousel({
-    items: 5,
-    // margin: 5,
+// slick-carousel-projects
+$(document).ready(function () {
+  $('.slick-carousel-projects').slick({
     autoplay: true,
     autoplayHoverPause: true,
-    autoplayTimeout: 2020,
+    autoplaySpeed: 2000,
     smartSpeed: 2000,
-    animateIn: 'linear',
-    animateOut: 'linear',
+    speed: 800,
     loop: true,
     nav: false,
+    infinite: true,
     dots: false,
-    responsive: {
-      0: {
-        items: 1
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
       },
-      300: {
-        items: 1
-      },
-      768: {
-        items: 2
-      },
-      1200: {
-        items: 3
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1
+        }
       }
-    }
+    ]
   });
 });

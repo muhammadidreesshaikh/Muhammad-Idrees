@@ -445,10 +445,7 @@ a.white-btn-small {
 .projects .projects-main .project-card {
     border: 1px solid var(--gray-color);
     border-radius: 5px;
-    /* margin-top: 10px; */
-    width: 95%;
-    height: 345px;
-    margin: auto;
+    margin: 0 8px;
 }
 
 .projects .project-card .project-img {}
