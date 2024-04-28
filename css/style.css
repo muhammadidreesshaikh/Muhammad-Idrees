@@ -383,23 +383,16 @@ a.white-btn-small {
     border: 1px solid var(--darkgray-color);
     border-radius: 5px;
     padding: 20px;
-    width: 95%;
-    height: auto;
+    margin: 0 8px;
     text-align: center;
-    display: block;
-    margin: auto;
 }
 
-/* .owl-carousel .owl-item img {
-    display: unset !important;
-    width: unset !important;
-} */
-
 .services .card-main img {
-    width: 50px;
-    height: 50px;
+    width: 50px !important;
+    height: 50px !important;
     object-fit: cover;
     object-position: center;
+    margin: auto;
 }
 
 .services .card-main h5 {
@@ -445,10 +438,12 @@ a.white-btn-small {
 .projects .projects-main .project-card {
     border: 1px solid var(--gray-color);
     border-radius: 5px;
-    /* margin: 0 8px; */
+    margin: 0 8px;
 }
 
-.projects .project-card .project-img {}
+.slick-next, .slick-prev{
+    display: none !important;
+}
 
 .projects .project-card .project-img img {
     width: 100%;
@@ -553,8 +548,8 @@ a.white-btn-small {
 
     .services .services-card .card-main {
         padding: 20px;
-        width: 95%;
-        height: auto;
+        /* width: 95%;
+        height: auto; */
         margin-top: 14px;
     }
 
@@ -591,8 +586,8 @@ a.white-btn-small {
 
     .services .services-card .card-main {
         padding: 20px;
-        width: 95%;
-        height: auto;
+        /* width: 95%;
+        height: auto; */
         margin-top: 14px;
     }
 
