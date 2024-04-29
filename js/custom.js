@@ -30,13 +30,13 @@ $(function () {
     dots: false,
     responsive: {
       0: {
-        items: 2
+        items: 7
       },
       300: {
-        items: 5
+        items: 7
       },
       768: {
-        items: 5
+        items: 7
       },
       1200: {
         items: 8
