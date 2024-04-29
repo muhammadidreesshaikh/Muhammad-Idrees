@@ -548,17 +548,15 @@ a.white-btn-small {
 
     .services .services-card .card-main {
         padding: 20px;
-        /* width: 95%;
-        height: auto; */
         margin-top: 14px;
     }
 
-    .services .card-main img {
+    /* .services .card-main img {
         width: 55px !important;
         height: 55px;
         display: block !important;
         margin: auto;
-    }
+    } */
 
     .services .card-main h5 {
         font-size: 15px;
