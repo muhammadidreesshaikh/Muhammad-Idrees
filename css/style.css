@@ -580,13 +580,6 @@ a.white-btn-small {
         margin-top: 14px;
     }
 
-    /* .services .card-main img {
-        width: 55px !important;
-        height: 55px;
-        display: block !important;
-        margin: auto;
-    } */
-
     .services .card-main h5 {
         font-size: 15px;
         text-align: center;
@@ -594,7 +587,7 @@ a.white-btn-small {
     }
 
     .help-you {
-        background-color: #00000083;
+        background-color: #000000d9;
     }
 
     .help-you .help-left h1 {
