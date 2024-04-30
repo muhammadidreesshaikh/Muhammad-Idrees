@@ -593,9 +593,9 @@ a.white-btn-small {
         font-weight: 300;
     }
 
-    /* .help-you {
-        background-color: #000000b8;
-    } */
+    .help-you {
+        background-color: #000000cf;
+    }
 
     .help-you .help-left h1 {
         font-size: 30px;
