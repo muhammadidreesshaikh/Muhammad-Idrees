@@ -494,14 +494,6 @@ a.white-btn-small {
     background-color: #000000eb;
 }
 
-.help-you .help-content{
-
-}
-
-.help-you .help-content .help-left {
-
-}
-
 .help-you .help-left h1{
     font-size: 40px;
     color: var(--white-color);
@@ -601,9 +593,9 @@ a.white-btn-small {
         font-weight: 300;
     }
 
-    .help-you {
+    /* .help-you {
         background-color: #000000b8;
-    }
+    } */
 
     .help-you .help-left h1 {
         font-size: 30px;
