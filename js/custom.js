@@ -81,6 +81,37 @@ $(function () {
 // slick-carousel-projects
 $(document).ready(function () {
   $('.slick-carousel-projects').slick({
+    autoplay: false,
+    autoplayHoverPause: true,
+    autoplaySpeed: 2000,
+    smartSpeed: 2000,
+    speed: 800,
+    loop: true,
+    nav: false,
+    infinite: true,
+    dots: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
+
+// slick-carousel-testimonail
+$(document).ready(function () {
+  $('.slick-carousel-testimonail').slick({
     autoplay: true,
     autoplayHoverPause: true,
     autoplaySpeed: 2000,
