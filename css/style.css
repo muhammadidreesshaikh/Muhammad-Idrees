@@ -673,7 +673,18 @@ a.white-btn-small {
 }
 /* contact-me end */
 
+/* footer start */
+.footer{
+    padding: 15px 0;
+    background-color: var(--white-color);
+    text-align: center;
+}
 
+.footer h5{
+    font-size: 14px;
+    color: var(--black-color);
+}
+/* footer end */
 
 
 
