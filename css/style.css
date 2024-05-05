@@ -402,6 +402,12 @@ a.white-btn-small {
     padding-top: 25px;
     font-weight: 300;
 }
+
+.services .services-card .service-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
 /* services end */
 
 /* projects start */
@@ -655,7 +661,7 @@ a.white-btn-small {
     margin: auto;
 }
 
-.contact-me .contact-card .card-btn{
+.contact-me .contact-card .card-btn {
     margin-top: 20px;
 }
 
@@ -667,23 +673,25 @@ a.white-btn-small {
     margin-top: 20px;
 }
 
-.contact-me .contact-card a:hover{
+.contact-me .contact-card a:hover {
     color: var(--orange-color);
     transition: 0.5s;
 }
+
 /* contact-me end */
 
 /* footer start */
-.footer{
+.footer {
     padding: 15px 0;
     background-color: var(--white-color);
     text-align: center;
 }
 
-.footer h5{
+.footer h5 {
     font-size: 14px;
     color: var(--black-color);
 }
+
 /* footer end */
 
 
