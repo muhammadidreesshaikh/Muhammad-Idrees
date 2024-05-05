@@ -402,13 +402,6 @@ a.white-btn-small {
     padding-top: 25px;
     font-weight: 300;
 }
-
-.services .card-main p {
-    font-size: 15px;
-    color: var(--darkgray-color);
-    padding-top: 5px;
-}
-
 /* services end */
 
 /* projects start */
@@ -606,6 +599,79 @@ a.white-btn-small {
 
 /* testimonail end */
 
+/* contact-me start */
+.contact-me {
+    padding: 50px 0;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-blend-mode: soft-light;
+    background-color: #000000f2;
+}
+
+.contact-me .contact-content {
+    text-align: center;
+}
+
+.contact-me .contact-content h1 {
+    font-size: 40px;
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.contact-me .contact-content p {
+    font-size: 14px;
+    color: var(--darkgray-color);
+    padding-top: 10px;
+}
+
+.contact-me .contact-main {
+    margin-top: 40px;
+}
+
+.contact-me .contact-main .contact-card {
+    background-color: var(--white-color);
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    height: 130px;
+}
+
+.contact-me .contact-card img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: auto;
+}
+
+.contact-me .contact-card .card-btn{
+    margin-top: 20px;
+}
+
+.contact-me .contact-card .card-btn a {
+    font-size: 15px;
+    color: var(--black-color);
+    padding-top: 28px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.contact-me .contact-card a:hover{
+    color: var(--orange-color);
+    transition: 0.5s;
+}
+/* contact-me end */
+
 
 
 
@@ -695,6 +761,10 @@ a.white-btn-small {
         float: unset;
         margin-top: 30px;
     }
+
+    .contact-me {
+        background-color: #000000e0;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -721,6 +791,14 @@ a.white-btn-small {
 
     .services .card-main h5 {
         font-size: 12px;
+    }
+
+    .contact-me {
+        background-color: #000000e0;
+    }
+
+    .contact-me .contact-main .contact-card {
+        padding: 20px;
     }
 }
 

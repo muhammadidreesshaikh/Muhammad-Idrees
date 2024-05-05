@@ -81,7 +81,7 @@ $(function () {
 // slick-carousel-projects
 $(document).ready(function () {
   $('.slick-carousel-projects').slick({
-    autoplay: false,
+    autoplay: true,
     autoplayHoverPause: true,
     autoplaySpeed: 2000,
     smartSpeed: 2000,
