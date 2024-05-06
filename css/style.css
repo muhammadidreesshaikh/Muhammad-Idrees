@@ -383,7 +383,8 @@ a.white-btn-small {
 .services .services-card .card-main {
     border: 1px solid var(--darkgray-color);
     border-radius: 5px;
-    padding: 20px;
+    padding: 25px 15px;
+    height: 145px;
     margin: 0 8px;
     text-align: center;
 }
@@ -824,6 +825,7 @@ a.white-btn-small {
 
 @media screen and (max-width: 425px) {
     .banner {
-        height: 70vh;
+        height: 90vh;
     }
+
 }
