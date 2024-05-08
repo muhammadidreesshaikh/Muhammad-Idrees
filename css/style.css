@@ -109,6 +109,8 @@ a.white-btn-small {
 
 /* loader end*/
 
+/* home-page css start */
+
 /* top-bar start */
 .top-bar {
     height: 55px;
@@ -699,6 +701,76 @@ a.white-btn-small {
 }
 
 /* footer end */
+/* home-page css end */
+
+/* projects-page css start */
+.projects-banner{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: #000000f2;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-banner .projects-text h1{
+    font-size: 40px;
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.projects-page {
+    padding: 50px 0;
+}
+
+.projects-page .projects-main .project-card {
+    border: 1px solid var(--gray-color);
+    border-radius: 5px;
+    width: 100%;
+    height: 350px;
+    margin-top: 25px;
+}
+
+.projects-page .project-card .project-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid var(--gray-color);
+}
+
+.projects-page .project-card .project-card-text {
+    padding: 20px 15px;
+}
+
+.projects-page .project-card .project-card-text h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.projects-page .project-card .project-card-text p {
+    font-size: 13px;
+    padding-top: 5px;
+    color: var(--darkgray-color);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.projects-page .project-card .project-card-btn {
+    margin-top: 20px;
+}
+/* home-page css end */
+
+
 
 
 
@@ -789,6 +861,10 @@ a.white-btn-small {
     }
 
     .contact-me {
+        background-color: #000000e0;
+    }
+
+    .projects-banner {
         background-color: #000000e0;
     }
 }
