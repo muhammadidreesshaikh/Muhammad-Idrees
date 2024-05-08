@@ -481,6 +481,11 @@ a.white-btn-small {
     margin-top: 20px;
 }
 
+.projects .projects-main .project-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
 /* projects end */
 
 /* help-you start */
@@ -794,7 +799,7 @@ a.white-btn-small {
     }
 
     .about-us .profile-content h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .about-us .profile-content p {
@@ -831,6 +836,14 @@ a.white-btn-small {
 
 @media screen and (max-width: 375px) {
     .banner{
-        height: 55vh;
+        height: 70vh;
+    }
+
+    .about-us .profile-content h1 {
+        font-size: 30px;
+    }
+
+    .help-you .help-left h1 {
+        font-size: 28px;
     }
 }
