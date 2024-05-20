@@ -117,7 +117,7 @@ a.white-btn-small {
     position: fixed;
     width: 100%;
     z-index: 999;
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 16%);
     background: #ffffff;
     display: flex;
     align-items: center;
@@ -881,9 +881,26 @@ a.white-btn-small {
 
 @media screen and (max-width: 1366px) {}
 
+
 @media screen and (max-width: 768px) {
     .toggleMenu {
         display: block;
+    }
+
+    .top-bar {
+        height: 55px;
+        padding: 15px 0;
+    }
+
+    .social-buttons {
+        justify-content: center;
+        gap: 10px;
+        margin-top: 0px;
+    }
+
+    .top-bar .logo a {
+        font-size: 23px;
+        font-weight: 500;
     }
 
     .mobile-nav {
@@ -909,6 +926,7 @@ a.white-btn-small {
     .banner {
         height: 55vh;
         background-color: #000000e0;
+        padding-top: 40px;
     }
 
     .banner .banner-text h1 {
@@ -973,6 +991,18 @@ a.white-btn-small {
 }
 
 @media screen and (max-width: 600px) {
+    .top-bar {
+        height: auto;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .social-buttons {
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
     .about-us .profile-content {
         padding-top: 30px;
     }
