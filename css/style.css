@@ -118,14 +118,18 @@ a.white-btn-small {
     width: 100%;
     z-index: 999;
     box-shadow: 0 5px 15px 0 rgb(0 0 0 / 16%);
-    background: #ffffff;
+    background: var(--white-color);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.top-bar .logo {
+    margin-top: 4px;
+}
+
 .top-bar .logo a {
-    color: black;
+    color: var(--black-color);
     font-size: 20px;
     font-weight: 600;
 }
@@ -229,141 +233,6 @@ a.white-btn-small {
 
 .social-button--twitter::after {
     background: #55acee;
-}
-
-
-/* .top-bar .nav-bar {
-    padding-top: 3px;
-    float: right;
-}
-
-.top-bar .nav-bar ul {
-    display: flex;
-    margin-bottom: 0;
-    list-style: none;
-    padding-left: 0;
-}
-
-.top-bar .nav-bar li a {
-    color: black;
-    font-size: 15px;
-    padding: 0 15px;
-}
-
-.top-bar .nav-bar li a:hover {
-    transition: 0.5s;
-    opacity: 0.5s;
-    color: #fc6d43;
-} */
-
-
-/* dropdown buttn */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.parent li>a:hover .dropdown-content {
-    display: block;
-}
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 55px;
-    right: 0;
-    background-color: black;
-    overflow-x: hidden;
-    transition: 0.9s;
-}
-
-.sidenav.active {
-    width: 100%;
-}
-
-.sidenav ul {
-    list-style: none;
-    padding-left: 20px;
-    margin-bottom: 0;
-}
-
-.sidenav ul a {
-    padding-left: 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #fff;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: black;
-}
-
-/* X menu btn */
-.bar1,
-.bar2,
-.bar3 {
-    width: 35px;
-    height: 4px;
-    border-radius: 8px;
-    background-color: black;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {
-    opacity: 0;
-}
-
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -6px);
-}
-
-.toggleMenu {
-    position: absolute;
-    top: 6px;
-    right: 4%;
-    z-index: 1;
-    display: none;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-
-    .sidenav a {
-        font-size: 18px;
-    }
-}
-
-.mobile-nav {
-    display: none;
 }
 
 /* top-bar end */
@@ -503,7 +372,7 @@ a.white-btn-small {
 
 .services .card-main h5 {
     font-size: 15px;
-    color: white;
+    color: var(--white-color);
     padding-top: 25px;
     font-weight: 300;
 }
@@ -899,7 +768,7 @@ a.white-btn-small {
     }
 
     .top-bar .logo a {
-        font-size: 23px;
+        font-size: 21px;
         font-weight: 500;
     }
 
@@ -997,10 +866,14 @@ a.white-btn-small {
         padding: 15px 0;
     }
 
+    .top-bar .logo {
+        margin-top: 0;
+    }
+
     .social-buttons {
         justify-content: center;
-        gap: 10px;
-        margin-top: 10px;
+        gap: 15px;
+        margin-top: 15px;
     }
 
     .about-us .profile-content {
