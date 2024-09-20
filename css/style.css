@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif !important;
+    font-family: "Montserrat", sans-serif !important;
     overflow-x: hidden;
     margin-bottom: 0 auto;
     background: white;
@@ -307,7 +307,7 @@ a.white-btn-small {
 }
 
 .about-us .profile-content h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
     color: var(--black-color);
 }
@@ -371,7 +371,7 @@ a.white-btn-small {
 }
 
 .services .card-main h5 {
-    font-size: 15px;
+    font-size: 13px;
     color: var(--white-color);
     padding-top: 25px;
     font-weight: 300;
@@ -645,10 +645,10 @@ a.white-btn-small {
 }
 
 .contact-me .contact-card .card-btn a {
-    font-size: 15px;
+    font-size: 14px;
     color: var(--black-color);
     padding-top: 28px;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 20px;
 }
 
